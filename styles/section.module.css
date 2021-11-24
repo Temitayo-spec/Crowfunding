@@ -16,7 +16,7 @@
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   padding: 1.5em;
   border-radius: 15px;
-  margin-top: -50px;
+  margin-top: -80px;
   margin-bottom: 2em;
   background-color: #fff;
 }
@@ -125,7 +125,7 @@
   width: 25%;
   margin: auto;
   color: hsl(0, 0%, 48%);
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .progress_bar {
@@ -147,7 +147,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 40vh;
+    height: auto;
   }
 
   .section_two {
