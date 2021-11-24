@@ -1,0 +1,111 @@
+._inner {
+  background: white;
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  margin-bottom: 2em;
+  overflow: none;
+}
+
+.header h3 {
+  margin: 0.6em 0;
+  font-size: 1.3em;
+}
+
+.header p {
+  color: hsl(0, 0%, 48%);
+  line-height: 1.5em;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.card {
+  border: 1px solid hsl(0, 0%, 79%);
+  padding: 1.5em;
+  border-radius: 15px;
+  margin: 1em 0;
+}
+
+.card h2 {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+  margin: 0.2em 0 0.5em 0;
+}
+
+.card h2 .pledge {
+  color: hsl(176, 50%, 47%);
+}
+
+.card_info {
+  color: hsl(0, 0%, 48%);
+  line-height: 1.5em;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex p {
+  color: hsl(0, 0%, 48%);
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5em;
+}
+
+.card button {
+  height: 60px;
+  width: 180px;
+  margin-top: 1em;
+  border: none;
+  border-radius: 34px;
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #fff;
+  background: hsl(176, 50%, 47%);
+  outline: none;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card button:hover {
+  background: hsl(176, 72%, 28%);
+}
+
+.card:nth-child(3) button {
+  background: hsl(0, 0%, 48%);
+}
+
+.card:nth-child(3) {
+  opacity: 0.4;
+}
+
+@media (min-width: 600px) {
+  ._inner {
+    width: 45%;
+  }
+
+  .card h2 {
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    margin: 0.2em 0 0 0;
+  }
+
+  .select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

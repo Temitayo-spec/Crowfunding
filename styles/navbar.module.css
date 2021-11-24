@@ -1,0 +1,129 @@
+.wrapper {
+  background-image: url("../public/images/image-hero-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  padding: 1.5em;
+}
+
+.inner .lhs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lhs .hamburger img {
+  width: 110%;
+  cursor: pointer;
+}
+
+.rhs {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  display: none;
+}
+
+.rhs_active {
+  display: block;
+}
+
+.rhs ul {
+  position: absolute;
+  list-style: none;
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.rhs ul li {
+  padding: 1.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.rhs ul li:nth-child(1) {
+  border-radius: 10px 10px 0 0;
+}
+.rhs ul li:nth-child(3) {
+  border-bottom: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.rhs ul li:hover {
+  background-color: rgb(216, 212, 212);
+}
+
+.rhs ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+  background-image: url("../public/images/image-hero-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55vh;
+  width: 100%;
+  padding: 1.5em;
+}
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  .rhs {
+    display: block;
+    margin: 0 0 0 auto;
+    width: auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  .rhs ul {
+    position: static;
+    list-style: none;
+    background: transparent;
+    width: auto;
+    border-radius: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .rhs ul li {
+    padding: 1.5em;
+    border-bottom: none;
+    cursor: pointer;
+  }
+
+  .rhs ul li:nth-child(1) {
+    border-radius: 10px 10px 0 0;
+  }
+  .rhs ul li:nth-child(3) {
+    border-bottom: none;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .rhs ul li:hover {
+    background-color: transparent;
+  }
+
+  .rhs ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .rhs ul li a:hover{
+    color: rgb(224, 220, 220);
+  }
+}
