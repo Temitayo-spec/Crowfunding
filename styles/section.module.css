@@ -172,9 +172,9 @@
 
   .stats hr {
     transform: rotate(90deg);
-    width: 15%;
+    width: 10%;
     height: 2px;
-    margin: auto -20px;
+    margin: auto -15px;
   }
 
   .back_btn {
