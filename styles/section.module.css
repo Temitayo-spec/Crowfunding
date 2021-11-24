@@ -125,7 +125,7 @@
   width: 25%;
   margin: auto;
   color: hsl(0, 0%, 48%);
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .progress_bar {
@@ -147,7 +147,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 40vh;
+    height: auto;
   }
 
   .section_two {
